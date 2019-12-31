@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "theme"
+  spec.name          = "theme-modified"
   spec.version       = "0.0.1"
   spec.authors       = ["Sam Caldwell"]
-  spec.email         = ["jekyll_theme@samcaldwell.net"]
+  spec.email         = ["theme@samcaldwell.net"]
 
-  spec.summary       = "A modified theme."
+  spec.summary       = "A modified theme template."
   spec.homepage      = "https://github.com/sam-caldwell/theme"
   spec.license       = "MIT"
 

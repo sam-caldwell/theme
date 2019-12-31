@@ -5,7 +5,7 @@
 // Created by Sander Voerman <mailto:sander@savoerman.nl> using the Solarized
 // color scheme by Ethan Schoonover <https://ethanschoonover.com/solarized>.
 
-// This style sheet implements two options for the minima.skin setting:
+// This style sheet implements two options for the theme.skin setting:
 // "solarized" for light mode and "solarized-dark" for dark mode.
 $sol-is-dark: false !default;
 
@@ -46,7 +46,7 @@ $sol-mono01:   $sol-base01;
 }
 
 
-// Minima color variables
+// Theme color variables
 // ----------------------
 
 $brand-color:           $sol-mono1 !default;
@@ -134,6 +134,6 @@ $table-border-color:    $sol-mono1 !default;
 
 // import skin-agnostic styles and override
 @import
-  "minima/initialize",
-  "minima/custom-styles"
+  "theme/initialize",
+  "theme/custom-styles"
 ;
